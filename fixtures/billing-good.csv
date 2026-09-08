@@ -1,0 +1,5 @@
+row_id,provider,invoice_id,charge_date,resource_id,service,cost_center,currency,billed_cost,effective_cost,source_uri
+az-001,azure,AZ-2026-08,2026-09-07,/subscriptions/demo/vm1,Virtual Machines,platform,USD,100,90,abfss://raw/azure/az-001
+aws-001,aws,AWS-2026-08,2026-09-07,arn:aws:ec2:demo,EC2,data,USD,75,70,s3://raw/aws/aws-001
+gcp-001,gcp,GCP-2026-08,2026-09-07,projects/demo/gpu1,Compute Engine,ai,USD,50,50,gs://raw/gcp/gcp-001
+
